@@ -1,0 +1,9 @@
+spring:
+  ai:
+    openai:
+      api-key: ${api-key}
+      organization-id: ${organization-id}
+      project-id: ${project-id}
+      chat:
+        options:
+          model: gpt-4o
