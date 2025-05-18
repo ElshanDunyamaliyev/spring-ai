@@ -1,4 +1,4 @@
-package dev.elshan.springai.sec01;
+package dev.elshan.springai.sec01_LLM;
 
 import java.util.List;
 

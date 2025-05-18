@@ -1,4 +1,4 @@
-package dev.elshan.springai.multimodality;
+package dev.elshan.springai.sec02_Multimodality;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.model.ChatModel;

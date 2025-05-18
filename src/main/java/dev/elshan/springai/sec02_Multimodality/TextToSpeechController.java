@@ -1,4 +1,4 @@
-package dev.elshan.springai.multimodality;
+package dev.elshan.springai.sec02_Multimodality;
 
 import org.springframework.ai.openai.OpenAiAudioSpeechModel;
 import org.springframework.ai.openai.OpenAiAudioSpeechOptions;
@@ -28,6 +28,7 @@ public class TextToSpeechController {
     public byte[] textToSpeech(){
         var speechOptions = OpenAiAudioSpeechOptions.builder()
                 .responseFormat(OpenAiAudioApi.SpeechRequest.AudioResponseFormat.MP3)
+                .voice(OpenAiAudioApi.SpeechRequest.Voice.ASH)
                 .speed(1.0f)
                 .model(OpenAiAudioApi.TtsModel.TTS_1.value)
                 .build();
